@@ -1,0 +1,140 @@
+
+body {
+  background-image: url("Images\\Band1.jpg");
+  background-size: 100vw auto;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+.MenuWrapper {
+  width: 100%;
+  height: 60px;
+}
+
+.TopMenu {
+  width: 100%;
+  height: 60px;
+  background-color: #2c67ff;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 90%;
+}
+
+.TopMenu img {
+  margin-left: 20px;
+  margin-top: 0.13%;
+  width: auto;
+  height: 90%;
+}
+
+.TopMenu a {
+  width: 9%;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Times New Roman";
+}
+
+.ContentPane {
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  top: 800px; /* Hero height */
+  width: 90%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.ContentPaneUp {
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  top: 100px; /* Hero height */
+  width: 90%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.Title {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Arial Black";
+}
+
+.LeftBox {
+  margin-left: 2%;
+  padding: 1%;
+  float: left;
+  width: 45%;
+  height: auto;
+  font-size: 26px;
+  font-family: Arial;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.RightBox {
+  margin-right: 2%;
+  padding: 1%;
+  float: right;
+  width: 45%;
+  height: auto;
+  font-size: 26px;
+  font-family: "Times New Roman";
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.SocialBox {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.FacebookWrapper {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.CommentsBox {
+  margin: 0px;
+  padding: 2%;
+  float: right;
+  width: 46%;
+  height: auto;
+}
+
+.RightBox img {
+  width: 100%;
+  height: auto;
+}
+
+.LeftBox img {
+  width: 100%;
+  height: auto;
+}
+
+.MusicBox {
+  width: 100%
+  height: auto;
+}
+
+.MusicRightBar {
+  float: right;
+  width: 50%
+}
+
+.MusicLeftBar {
+  float: left;
+  width: 50%
+}
