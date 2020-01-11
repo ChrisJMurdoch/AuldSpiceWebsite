@@ -29,3 +29,14 @@ function email() {
   var email = type + '%0D%0A' + num + '%0D%0A' + date + '%0D%0A' + venue;
   window.open('mailto:info@auldspice.com?subject=Band Booking&body=' + email);
 };
+
+// Open gallery's zoom display
+function zoom(image) {
+  document.getElementById("zoomImg").src = image;
+  document.getElementById("zoom").style.display = "flex";
+};
+
+// Close zoom display
+function hide() {
+  document.getElementById("zoom").style.display = "none";
+};
