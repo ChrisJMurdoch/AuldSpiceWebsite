@@ -30,19 +30,138 @@
     </div>
 
     <div class="Title">
-      Gigs
+      Places we've played:
     </div>
 
-    <div class="LeftBox">
-      <p>
-        Left
-      </p>
-    </div>
+    <div class="CentreBox">
 
-    <div class="RightBox">
-      <p>
-        Right
-      </p>
+      <div id="map"></div>
+      <script>
+        function initMap() {
+
+          // Create map
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 8,
+            // Edinburgh castle
+            center: {lat: 55.948734, lng: -3.199966}
+          });
+
+          // Create markers
+          var AssemblyRooms = new google.maps.Marker({
+            position: {lat: 55.952884, lng: -3.198610},
+            map: map,
+            title: 'Assembly Rooms',
+            animation: google.maps.Animation.DROP
+          });
+          var BlairCastle = new google.maps.Marker({
+            position: {lat: 56.767003, lng: -3.845601},
+            map: map,
+            title: 'Blair Castle',
+            animation: google.maps.Animation.DROP
+          });
+          var EdinburghCornExchange = new google.maps.Marker({
+            position: {lat: 55.926805, lng: -3.247439},
+            map: map,
+            title: 'Edinburgh Corn Exchange',
+            animation: google.maps.Animation.DROP
+          });
+          var EdinburghUniversityPollockHalls = new google.maps.Marker({
+            position: {lat: 55.940391, lng: -3.171337},
+            map: map,
+            title: 'Edinburgh University Pollock Halls',
+            animation: google.maps.Animation.DROP
+          });
+          var EdinburghUniversityTeviotUnion = new google.maps.Marker({
+            position: {lat: 55.946095, lng: -3.188067},
+            map: map,
+            title: 'Edinburgh University Teviot Union',
+            animation: google.maps.Animation.DROP
+          });
+          var NewbattleAbbeyCollege = new google.maps.Marker({
+            position: {lat: 55.882655, lng: -3.066960},
+            map: map,
+            title: 'Newbattle Abbey College',
+            animation: google.maps.Animation.DROP
+          });
+          var OysterCatcherInnOtterFerry = new google.maps.Marker({
+            position: {lat: 56.008162, lng: -3.321700},
+            map: map,
+            title: 'Oyster Catcher Inn, Otter Ferry',
+            animation: google.maps.Animation.DROP
+          });
+          var BalmoralHotel = new google.maps.Marker({
+            position: {lat: 55.953182, lng: -3.189587},
+            map: map,
+            title: 'Balmoral Hotel',
+            animation: google.maps.Animation.DROP
+          });
+          var CaledonianHotel = new google.maps.Marker({
+            position: {lat: 55.949821, lng: -3.207347},
+            map: map,
+            title: 'Caledonian Hotel',
+            animation: google.maps.Animation.DROP
+          });
+          var CarfraemillHotel = new google.maps.Marker({
+            position: {lat: 55.771460, lng: -2.785282},
+            map: map,
+            title: 'Carfraemill Hotel',
+            animation: google.maps.Animation.DROP
+          });
+          var GarvockHouseHotel = new google.maps.Marker({
+            position: {lat: 56.071299, lng: -3.443292},
+            map: map,
+            title: 'Garvock House Hotel',
+            animation: google.maps.Animation.DROP
+          });
+          var HoustonHouseHotel = new google.maps.Marker({
+            position: {lat: 55.925912, lng: -3.518053},
+            map: map,
+            title: 'Houston House Hotel',
+            animation: google.maps.Animation.DROP
+          });
+          var KingsManorHotel = new google.maps.Marker({
+            position: {lat: 55.944485, lng: -3.095940},
+            map: map,
+            title: 'King’s Manor Hotel',
+            animation: google.maps.Animation.DROP
+          });
+          var SheratonHotel = new google.maps.Marker({
+            position: {lat: 55.946858, lng: -3.207702},
+            map: map,
+            title: 'Sheraton Hotel',
+            animation: google.maps.Animation.DROP
+          });
+          var CurrieRFC = new google.maps.Marker({
+            position: {lat: 55.886250, lng: -3.336923},
+            map: map,
+            title: 'Currie RFC',
+            animation: google.maps.Animation.DROP
+          });
+          var HeriotsRFC = new google.maps.Marker({
+            position: {lat: 55.969037, lng: -3.206655},
+            map: map,
+            title: 'Heriots RFC',
+            animation: google.maps.Animation.DROP
+          });
+          var WatsonianRFC = new google.maps.Marker({
+            position: {lat: 55.926584, lng: -3.224120},
+            map: map,
+            title: 'Watsonian RFC',
+            animation: google.maps.Animation.DROP
+          });
+          var SRUConferenceCentre = new google.maps.Marker({
+            position: {lat: 55.942259, lng: -3.240839},
+            map: map,
+            title: 'SRU Conference Centre',
+            animation: google.maps.Animation.DROP
+          });
+
+        }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbKLQU4tTjgVyEXt8HwjUp3t-DmAto_g4&callback=initMap">
+    </script>
+
     </div>
 
   </div>
