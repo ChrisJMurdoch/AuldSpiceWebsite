@@ -16,6 +16,18 @@ audio {
   width: 80%;
 }
 
+button {
+  padding: 1% 3%;
+
+  border: none;
+  color: black;
+  background-color: rgb(153, 153, 153, 0.8);
+
+  border-radius: 4px;
+
+  font-size: 1.2vw;
+}
+
 .MenuWrapper {
   width: 100%;
   height: 60px;

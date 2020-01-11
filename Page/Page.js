@@ -19,3 +19,13 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 };
+
+// Open booking emails
+function email() {
+  var type = 'Type of function: ';
+  var num = 'Number of people: ';
+  var date = 'Date and time: ';
+  var venue = 'Venue: ';
+  var email = type + '%0D%0A' + num + '%0D%0A' + date + '%0D%0A' + venue;
+  window.open('mailto:info@auldspice.com?subject=Band Booking&body=' + email);
+};
