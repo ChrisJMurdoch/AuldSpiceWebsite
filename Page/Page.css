@@ -1,4 +1,8 @@
 
+html {
+  font-size: 1.5vmin;
+}
+
 body {
   background-image: url("Images\\Band1.jpg");
   background-size: 100vw auto;
@@ -25,17 +29,17 @@ button {
 
   border-radius: 4px;
 
-  font-size: 1.2vw;
+  font-size: 1em;
 }
 
 .MenuWrapper {
   width: 100%;
-  height: 60px;
+  height: 3em;
 }
 
 .TopMenu {
   width: 100%;
-  height: 60px;
+  height: 4em;
   background-color: #2c67ff;
   z-index: 100;
   display: flex;
@@ -65,8 +69,8 @@ button {
   width: auto;
   color: white;
   text-align: center;
-  line-height: 60px;
-  font-size: 2vw;
+  line-height: 2em;
+  font-size: 2em;
   text-decoration: none;
   font-family: Arial;
   overflow: hidden;
@@ -76,7 +80,7 @@ button {
   margin-left: 5%;
   margin-right: 5%;
   position: absolute;
-  top: 81%;
+  top: calc( 100vh - 70px - 7em );
   width: 90%;
   height: auto;
   background: rgba(255, 255, 255, 0.9);
@@ -93,9 +97,12 @@ button {
 }
 
 .Title {
+  padding-top: 20px;
+  padding-bottom: 10px;
   text-align: center;
-  font-size: 80px;
+  font-size: 7em;
   font-family: "Arial Black";
+  font-family: 'florante_at_lauraregular', 'Arial Black';
 }
 
 .LeftBox {
@@ -104,7 +111,7 @@ button {
   float: left;
   width: 45%;
   height: auto;
-  font-size: 26px;
+  font-size: 2em;
   font-family: Arial;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -115,7 +122,7 @@ button {
   float: right;
   width: 45%;
   height: auto;
-  font-size: 26px;
+  font-size: 2em;
   font-family: Arial;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -126,7 +133,7 @@ button {
   padding: 1%;
   width: 94%;
   height: auto;
-  font-size: 26px;
+  font-size: 2em;
   font-family: Arial;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -153,7 +160,7 @@ button {
   float: left;
   width: 44%;
   height: auto;
-  font-size: 1.5vw;
+  font-size: 0.7em;
 }
 
 .RightBox img {
@@ -167,7 +174,7 @@ button {
 }
 
 .MusicBox {
-  width: 100%
+  width: 100%;
   height: auto;
 }
 
@@ -206,6 +213,7 @@ button {
 .Gallery img {
   height: 100%;
   width: auto;
+  transition-duration: 250ms;
 }
 
 .Gallery img:hover {
