@@ -38,7 +38,8 @@ button {
 }
 
 .TopMenu {
-  width: 100%;
+  padding-right: 10px;
+  width: calc( 100% - 10px );
   height: 4em;
   background-color: #2c67ff;
   z-index: 100;
@@ -69,8 +70,8 @@ button {
   width: auto;
   color: white;
   text-align: center;
-  line-height: 2em;
-  font-size: 2em;
+  line-height: 2.1em;
+  font-size: 1.8em;
   text-decoration: none;
   font-family: Arial;
   overflow: hidden;
