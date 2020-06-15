@@ -198,8 +198,9 @@ button {
 }
 
 .GalleryEntry {
-  height: 20.7vw;
-  width: 20.7vw;
+  margin: 0.2vw;
+  height: 20.5vw;
+  width: 20.5vw;
   display: flex;
   align-items: center;
   justify-content: center;
