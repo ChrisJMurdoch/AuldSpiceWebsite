@@ -114,7 +114,7 @@ button {
   height: auto;
   font-size: 2em;
   font-family: Arial;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0);
 }
 
 .RightBox {
@@ -125,7 +125,7 @@ button {
   height: auto;
   font-size: 2em;
   font-family: Arial;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0);
 }
 
 .CentreBox {
@@ -136,7 +136,7 @@ button {
   height: auto;
   font-size: 2em;
   font-family: Arial;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0);
 }
 
 .SocialBox {
