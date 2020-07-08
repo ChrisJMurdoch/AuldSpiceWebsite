@@ -144,13 +144,15 @@ button {
   padding: 0px;
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .FacebookWrapper {
   margin: 0px;
   padding: 0px;
-  float: right;
-  width: 50%;
+  width: min(100%, 500px);
   height: auto;
 }
 
