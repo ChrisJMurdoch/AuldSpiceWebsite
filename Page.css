@@ -86,6 +86,11 @@ button {
   height: auto;
   background: rgba(255, 255, 255, 0.9);
 }
+@media (orientation: portrait) {
+  .ContentPane {
+    top: 100px; /* Hero height */
+  }
+}
 
 .ContentPaneUp {
   margin-left: 5%;
